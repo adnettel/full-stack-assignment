@@ -22,6 +22,11 @@
 //    console.log(text);
 //}
 
+function showTable() {
+	document.getElementById("myTable").style.visibility = "visible";
+
+}
+
 var URL = "http://localhost:8080/assignment6/app/traffic/";
 
 function ajax0(){

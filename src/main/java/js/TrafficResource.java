@@ -138,7 +138,7 @@ public class TrafficResource {
 		if (this.data.isEmpty())
 			this.data = this.reportService.getReportStats();
 
-		return String.valueOf(data.get("ZSTALLED VEHICLE"));
+		return String.valueOf(data.get("zSTALLED VEHICLE"));
 	}
 
 }
