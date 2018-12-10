@@ -27,7 +27,7 @@ function showTable() {
 
 }
 
-var URL = "http://localhost:8080/assignment6/app/traffic/";
+var URL = "https://assignment6-apn387.herokuapp.com/assignment6/app/traffic/";
 
 function ajax0(){
 	var thisURL = URL + "colwinjury";
