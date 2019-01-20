@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.imageio.ImageTypeSpecifier;
 import javax.ws.rs.core.Response;
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -12,6 +13,7 @@ import org.w3c.dom.NodeList;
 
 public class TrafficServiceImpl implements TrafficService {
 	
+	// If values show zero or table doesn't show, it is probably because this link might not work anymore.
 	final String url = "http://www.cs.utexas.edu/~devdatta/traffic_incident_data.xml";
 
 	// DB connection information would typically be read from a config file.
